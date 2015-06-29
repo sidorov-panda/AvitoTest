@@ -17,7 +17,7 @@
 		FA5C62281B412F8200438BB4 /* AvitoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5C62271B412F8200438BB4 /* AvitoTests.m */; };
 		FA5C62331B41323600438BB4 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5C62321B41323600438BB4 /* User.m */; };
 		FA5C62361B41355B00438BB4 /* API.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5C62351B41355B00438BB4 /* API.m */; };
-		FA5C62391B413F1D00438BB4 /* UserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5C62381B413F1D00438BB4 /* UserCell.m */; };
+		FA5C623F1B414CCB00438BB4 /* UserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5C623E1B414CCB00438BB4 /* UserCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,8 +51,8 @@
 		FA5C62321B41323600438BB4 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		FA5C62341B41355B00438BB4 /* API.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = API.h; sourceTree = "<group>"; };
 		FA5C62351B41355B00438BB4 /* API.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = API.m; sourceTree = "<group>"; };
-		FA5C62371B413F1D00438BB4 /* UserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserCell.h; path = ../UserCell.h; sourceTree = "<group>"; };
-		FA5C62381B413F1D00438BB4 /* UserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserCell.m; path = ../UserCell.m; sourceTree = "<group>"; };
+		FA5C62371B413F1D00438BB4 /* UserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserCell.h; sourceTree = "<group>"; };
+		FA5C623E1B414CCB00438BB4 /* UserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,7 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				FA5C62371B413F1D00438BB4 /* UserCell.h */,
-				FA5C62381B413F1D00438BB4 /* UserCell.m */,
+				FA5C623E1B414CCB00438BB4 /* UserCell.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -329,7 +329,7 @@
 				FA5C62141B412F8200438BB4 /* ViewController.m in Sources */,
 				FA5C62111B412F8200438BB4 /* AppDelegate.m in Sources */,
 				FA5C620E1B412F8200438BB4 /* main.m in Sources */,
-				FA5C62391B413F1D00438BB4 /* UserCell.m in Sources */,
+				FA5C623F1B414CCB00438BB4 /* UserCell.m in Sources */,
 				FA5C62361B41355B00438BB4 /* API.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
