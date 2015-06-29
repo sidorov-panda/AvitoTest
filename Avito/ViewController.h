@@ -10,6 +10,9 @@
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic, readonly) NSArray *users;
+
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
 
 @end
 
